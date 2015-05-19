@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VSim", "VSim\VSim.vcproj", "{EFA949B1-9283-4F82-B27F-E8725751F563}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4EDEA1D-9DCA-4369-88D1-20A025B29E67} = {E4EDEA1D-9DCA-4369-88D1-20A025B29E67}
+		{CCAD624B-1A9F-43CC-B56D-2E4E12AB4F83} = {CCAD624B-1A9F-43CC-B56D-2E4E12AB4F83}
+		{010D1B95-3FEF-493B-9F1C-0D066305ED62} = {010D1B95-3FEF-493B-9F1C-0D066305ED62}
+		{57C9DCBB-D23C-49B1-B62B-E88D0EA0D775} = {57C9DCBB-D23C-49B1-B62B-E88D0EA0D775}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EntitySystem", "EntitySystem\EntitySystem.vcproj", "{010D1B95-3FEF-493B-9F1C-0D066305ED62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4EDEA1D-9DCA-4369-88D1-20A025B29E67} = {E4EDEA1D-9DCA-4369-88D1-20A025B29E67}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcproj", "{E4EDEA1D-9DCA-4369-88D1-20A025B29E67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhysicsSystem", "PhysicsSystem\PhysicsSystem.vcproj", "{57C9DCBB-D23C-49B1-B62B-E88D0EA0D775}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4EDEA1D-9DCA-4369-88D1-20A025B29E67} = {E4EDEA1D-9DCA-4369-88D1-20A025B29E67}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderSystem", "RenderSystem\RenderSystem.vcproj", "{CCAD624B-1A9F-43CC-B56D-2E4E12AB4F83}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4EDEA1D-9DCA-4369-88D1-20A025B29E67} = {E4EDEA1D-9DCA-4369-88D1-20A025B29E67}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFA949B1-9283-4F82-B27F-E8725751F563}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFA949B1-9283-4F82-B27F-E8725751F563}.Debug|Win32.Build.0 = Debug|Win32
+		{EFA949B1-9283-4F82-B27F-E8725751F563}.Release|Win32.ActiveCfg = Release|Win32
+		{EFA949B1-9283-4F82-B27F-E8725751F563}.Release|Win32.Build.0 = Release|Win32
+		{010D1B95-3FEF-493B-9F1C-0D066305ED62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{010D1B95-3FEF-493B-9F1C-0D066305ED62}.Debug|Win32.Build.0 = Debug|Win32
+		{010D1B95-3FEF-493B-9F1C-0D066305ED62}.Release|Win32.ActiveCfg = Release|Win32
+		{010D1B95-3FEF-493B-9F1C-0D066305ED62}.Release|Win32.Build.0 = Release|Win32
+		{E4EDEA1D-9DCA-4369-88D1-20A025B29E67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4EDEA1D-9DCA-4369-88D1-20A025B29E67}.Debug|Win32.Build.0 = Debug|Win32
+		{E4EDEA1D-9DCA-4369-88D1-20A025B29E67}.Release|Win32.ActiveCfg = Release|Win32
+		{E4EDEA1D-9DCA-4369-88D1-20A025B29E67}.Release|Win32.Build.0 = Release|Win32
+		{57C9DCBB-D23C-49B1-B62B-E88D0EA0D775}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57C9DCBB-D23C-49B1-B62B-E88D0EA0D775}.Debug|Win32.Build.0 = Debug|Win32
+		{57C9DCBB-D23C-49B1-B62B-E88D0EA0D775}.Release|Win32.ActiveCfg = Release|Win32
+		{57C9DCBB-D23C-49B1-B62B-E88D0EA0D775}.Release|Win32.Build.0 = Release|Win32
+		{CCAD624B-1A9F-43CC-B56D-2E4E12AB4F83}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCAD624B-1A9F-43CC-B56D-2E4E12AB4F83}.Debug|Win32.Build.0 = Debug|Win32
+		{CCAD624B-1A9F-43CC-B56D-2E4E12AB4F83}.Release|Win32.ActiveCfg = Release|Win32
+		{CCAD624B-1A9F-43CC-B56D-2E4E12AB4F83}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
